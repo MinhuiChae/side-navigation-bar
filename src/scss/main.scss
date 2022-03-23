@@ -90,6 +90,15 @@
                     color: #fff;
                     font-size: 15px;
                     padding: 5px 0;
+                    white-space: nowrap;
+                    opacity: 0.6;
+                    transition: all 0.3s ease;
+
+                }
+
+                a:hover
+                {
+                    opacity: 1;
                 }
             }
 
@@ -109,4 +118,11 @@
     left: 100%;
     top: 0;
     margin-top: 0;
+    padding: 10px 20px;
+    border-radius: 0 6px 6px 0;
+
+    .link_name
+    {
+        font-size: 18px;
+    }
 }
